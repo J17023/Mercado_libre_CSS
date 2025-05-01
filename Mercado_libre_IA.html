@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MercadoLibre - Clon con IA</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        color: #333;
+      }
+
+      header {
+        background-color: #ffe600;
+        color: white;
+        text-align: center;
+        padding: 30px 0;
+      }
+
+      header img {
+        width: 160px;
+        margin-bottom: 20px;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        background-color: #333;
+        margin-top: 10px;
+      }
+
+      nav ul li {
+        display: inline-block;
+        margin: 0 20px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+      }
+
+      main {
+        padding: 50px 20px;
+        text-align: center;
+        background-color: #f7f7f7;
+      }
+
+      .banner {
+        background-color: #ffe600;
+        padding: 60px 20px;
+        margin-bottom: 30px;
+      }
+
+      .banner h2 {
+        font-size: 32px;
+        color: #333;
+      }
+
+      .banner p {
+        font-size: 20px;
+        color: #333;
+      }
+
+      .search-bar input[type="text"] {
+        padding: 15px;
+        width: 60%;
+        margin-right: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      .search-bar button {
+        padding: 15px 25px;
+        background-color: #3483fa;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .payment-methods {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        padding: 10px 0;
+        background-color: #f7f7f7;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+      }
+
+      .payment-methods div {
+        padding: 10px;
+        text-align: center;
+        background-color: white;
+        border-radius: 4px;
+        cursor: pointer;
+        flex: 1;
+        margin: 0 10px;
+      }
+
+      .offers {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px 0;
+        background-color: #fff;
+        gap: 20px;
+      }
+
+      .offers div {
+        text-align: center;
+        width: 150px;
+      }
+
+      .offers img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="Mercado-Libre-1.webp" alt="MercadoLibre" />
+      <h1>Bienvenido a MercadoLibre</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Categorías</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Ayuda</a></li>
+        <li><a href="#">Mi cuenta</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="banner">
+        <h2>Regístrate y conoce los beneficios</h2>
+        <p>Envíos GRATIS, desde $299. Hasta 50% de descuento.</p>
+      </section>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Busca productos, marcas y más..." />
+        <button>Buscar</button>
+      </div>
+
+      <section class="payment-methods">
+        <div>Mercado Pago</div>
+        <div>Citibanamex</div>
+        <div>Más medios de pago</div>
+      </section>
+
+      <section class="offers">
+        <div>
+          <img src="taladro.jpg" alt="Producto 1" />
+          <p>
+            Taladro percutor atornillador inalámbrico de 13mm DeWalt
+            Dcd7781d1-Br 20V + accesorio 110V
+          </p>
+        </div>
+        <div>
+          <img src="celular.webp" alt="Producto 2" />
+          <p>
+            Celular Xiaomi Poco X7 Pro 5g Dual Sim 512gb Amarillo 12ram 50mpx
+          </p>
+        </div>
+        <div>
+          <img src="switch.webp" alt="Producto 3" />
+          <p>Nintendo Switch Oled 64gb Color Blanco/negro</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 MercadoLibre - Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clon MercadoLibre con CSS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+      }
+
+      header {
+        background-color: #ffe600;
+        padding: 20px;
+        color: #333;
+        text-align: center;
+      }
+
+      header img {
+        width: 150px;
+        margin-bottom: 20px;
+      }
+
+      header h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        background-color: #333;
+      }
+
+      nav ul li {
+        display: inline;
+        margin: 0 20px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+      }
+
+      .banner {
+        background-color: #ffe600;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .banner h2 {
+        font-size: 30px;
+        color: #333;
+      }
+
+      .banner p {
+        font-size: 18px;
+        color: #333;
+      }
+
+      .search-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .search-bar input[type="text"] {
+        padding: 12px;
+        width: 60%;
+        margin-right: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      .search-bar button {
+        padding: 12px 20px;
+        background-color: #3483fa;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .payment-methods {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        padding: 15px 30px;
+        background-color: #f4f4f4;
+        border-radius: 8px;
+      }
+
+      .payment-methods div {
+        padding: 10px;
+        text-align: center;
+        background-color: white;
+        border-radius: 4px;
+        cursor: pointer;
+        flex: 1;
+        margin: 0 10px;
+      }
+
+      .offers {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px 0;
+        background-color: #fff;
+        gap: 20px;
+      }
+
+      .offers div {
+        text-align: center;
+        width: 150px;
+      }
+
+      .offers img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="Mercado-Libre-1.webp" alt="MercadoLibre" />
+      <h1>Bienvenido a MercadoLibre</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Categorías</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Ayuda</a></li>
+        <li><a href="#">Mi cuenta</a></li>
+      </ul>
+    </nav>
+
+    <div class="banner">
+      <h2>Regístrate y conoce los beneficios</h2>
+      <p>Envíos GRATIS, desde $299. Hasta 50% de descuento.</p>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Busca productos, marcas y más..." />
+      <button>Buscar</button>
+    </div>
+
+    <section class="payment-methods">
+      <div>Mercado Pago</div>
+      <div>Citibanamex</div>
+      <div>Más medios de pago</div>
+    </section>
+
+    <section class="offers">
+      <div>
+        <img src="taladro.jpg" alt="Producto 1" />
+        <p>
+          Taladro percutor atornillador inalámbrico de 13mm DeWalt Dcd7781d1-Br
+          20V + accesorio 110V
+        </p>
+      </div>
+      <div>
+        <img src="celular.webp" alt="Producto 2" />
+        <p>Celular Xiaomi Poco X7 Pro 5g Dual Sim 512gb Amarillo 12ram 50mpx</p>
+      </div>
+      <div>
+        <img src="switch.webp" alt="Producto 3" />
+        <p>Nintendo Switch Oled 64gb Color Blanco/negro</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 MercadoLibre - Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
